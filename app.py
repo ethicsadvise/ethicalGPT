@@ -38,6 +38,15 @@ def main():
     user_id = get_user_id()
     user_data = load_user_data(user_id)
 
+
+    st.markdown("""
+    ## Welcome to Ethical GPT
+    
+    Ethical GPT is an AI-powered chatbot designed to interact with you in an ethical, safe, and responsible manner. Our goal is to ensure that all responses provided by the assistant are respectful and considerate of various societal and ethical standards.
+
+    Feel free to ask any questions, and rest assured that the assistant will provide helpful and appropriate responses.
+    """)
+
     # Sidebar options
     models = ["llama-ethical"]
     st.sidebar.selectbox("Select Model", models, index=0)
