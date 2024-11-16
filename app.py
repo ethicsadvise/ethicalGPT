@@ -1,12 +1,9 @@
 import streamlit as st
-from dotenv import load_dotenv
 import json
 import os
 import re
 import requests
 import uuid
-
-load_dotenv()
 
 DB_DIR = 'user_data'  # Directory to store individual user data
 os.makedirs(DB_DIR, exist_ok=True)  # Ensure the directory exists
