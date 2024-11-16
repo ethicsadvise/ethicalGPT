@@ -61,7 +61,7 @@ def main():
     Feel free to ask any questions, and rest assured that the assistant will provide helpful and appropriate responses.
     """
     
-    st.markdown(stream_data(intro))
+    st.markdown(st.write_stream(stream_data(intro)))
 
     # Sidebar options
     models = ["llama-ethical"]
