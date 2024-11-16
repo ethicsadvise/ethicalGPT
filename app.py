@@ -38,9 +38,6 @@ def main():
     user_id = get_user_id()
     user_data = load_user_data(user_id)
 
-    # Streamlit Title
-    st.title("Ethical GPT Assistant")
-
 #     st.set_page_config(page_title='Ethical GPT Assistant', layout='wide',
 #                 #    initial_sidebar_state=st.session_state.get('sidebar_state', 'collapsed'),
 # )
