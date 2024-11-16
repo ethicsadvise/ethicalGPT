@@ -8,6 +8,12 @@ import uuid
 DB_DIR = 'user_data'  # Directory to store individual user data
 os.makedirs(DB_DIR, exist_ok=True)  # Ensure the directory exists
 
+def stream_data(textto):
+    for word in textto.split(" "):
+        yield word + " "
+        time.sleep(0.02)
+        
+
 def get_user_id():
     """Generate or retrieve a unique ID for the user."""
     if "user_id" not in st.session_state:
@@ -45,14 +51,16 @@ def main():
     st.image("./logo/images.jpeg", use_container_width=True )
     
     st.snow()
-    
-    st.markdown("""
+
+    intro = """
     ## Welcome to Ethical GPT
     
     Ethical GPT is an AI-powered chatbot designed to interact with you in an ethical, safe, and responsible manner. Our goal is to ensure that all responses provided by the assistant are respectful and considerate of various societal and ethical standards.
 
     Feel free to ask any questions, and rest assured that the assistant will provide helpful and appropriate responses.
-    """)
+    """
+    
+    st.markdown(stream_data(intro))
 
     # Sidebar options
     models = ["llama-ethical"]
