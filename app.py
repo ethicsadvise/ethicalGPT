@@ -61,18 +61,18 @@ def main():
     models = ["llama-ethical"]
     st.sidebar.selectbox("Select Model", models, index=0)
 
-    st.sidebar.title("❄️ Snowflake Cheatsheet 📄")
-    st.sidebar.caption("Made by an [Ungifted Amateur](https://www.linkedin.com/in/siavash-yasini/)")
+    st.sidebar.title("❄️Ethical GPT 📄")
+    st.sidebar.caption("Make AI to responde more ethical")
     
-    st.sidebar.caption("Check out the accompanying Snowflake tutorial [here](https://medium.com/snowflake/the-ungifted-amateurs-guide-to-snowflake-449284e4bd72).")
-    
+   
     with st.sidebar.expander("See My Other Streamlit Apps"):
-        st.caption("Sophisticated Palette: [App](https://sophisticated-palette.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/create-a-color-palette-from-any-image/) 📝")
-        st.caption("Wordler: [App](https://wordler.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/the-ultimate-wordle-cheat-sheet/) 📝")
-        st.caption("Koffee of the World: [App](https://koffee.streamlit.app/) 🎈")
+        st.caption("Original Data: [Data] (https://huggingface.co/datasets/MasahiroKaneko/eagle/"))
+        st.caption("Modified Data: [Data](https://huggingface.co/datasets/ethicsadvisorproject/ethical_data_bigger/) 📝")
+        st.caption("Used Model and Notebook: [Original model](https://huggingface.co/ethicsadvisorproject/Llama-2-7b-ethical-chat-finetune/) 🎈", "Notebook used for fine tuning [Notebook](https://colab.research.google.com/drive/1eAAjdwwD0i-i9-ehEJYUKXvZoYK0T3ue#scrollTo=ib_We3NLtj2E
+)")
        
-    with st.sidebar.expander("ℹ️ **Latest Snowflake Release Notes**"):
-        st.markdown("""Stay frosty and keep up with the coolest updates on the Snowflake website [here](https://docs.snowflake.com/en/release-notes/new-features).""")
+    with st.sidebar.expander("ℹ️ **Latest For an Ethical AI**"):
+        st.markdown("""You are welcome to give us your input on this research [here](https://forms.office.com/r/H4ARtETV2q).""")
     cols = st.columns(2)
 
     # Load chat history into session state
