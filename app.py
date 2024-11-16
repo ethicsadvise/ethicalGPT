@@ -54,7 +54,7 @@ def main():
     st.snow()
 
     intro = """
-    ## Welcome to Ethical GPT
+    ## Welcome to EthicsAdvisor
     
     Ethical GPT is an AI-powered chatbot designed to interact with you in an ethical, safe, and responsible manner. Our goal is to ensure that all responses provided by the assistant are respectful and considerate of various societal and ethical standards.
 
@@ -67,7 +67,7 @@ def main():
     models = ["llama-ethical"]
     st.sidebar.selectbox("Select Model", models, index=0)
 
-    st.sidebar.title("❄️Ethical GPT 📄")
+    st.sidebar.title("❄️EthicsAdvisor 📄")
     st.sidebar.caption("Make AI to responde more ethical")
     
    
