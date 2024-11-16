@@ -68,8 +68,7 @@ def main():
     with st.sidebar.expander("See My Other Streamlit Apps"):
         st.caption("Original Data: [Data] (https://huggingface.co/datasets/MasahiroKaneko/eagle/)")
         st.caption("Modified Data: [Data](https://huggingface.co/datasets/ethicsadvisorproject/ethical_data_bigger/) 📝")
-        st.caption("Used Model and Notebook: [Original model](https://huggingface.co/ethicsadvisorproject/Llama-2-7b-ethical-chat-finetune/) 🎈, Notebook used for fine tuning [Notebook](https://colab.research.google.com/drive/1eAAjdwwD0i-i9-ehEJYUKXvZoYK0T3ue#scrollTo=ib_We3NLtj2E
-)")
+        st.caption("Used Model and Notebook: [Original model](https://huggingface.co/ethicsadvisorproject/Llama-2-7b-ethical-chat-finetune/) 🎈, Notebook used for fine tuning [Notebook](https://colab.research.google.com/drive/1eAAjdwwD0i-i9-ehEJYUKXvZoYK0T3ue#scrollTo=ib_We3NLtj2E)")
        
     with st.sidebar.expander("ℹ️ **Latest For an Ethical AI**"):
         st.markdown("""You are welcome to give us your input on this research [here](https://forms.office.com/r/H4ARtETV2q).""")
