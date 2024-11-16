@@ -98,7 +98,7 @@ def main():
         st.session_state.messages = []
         user_data["chat_history"] = []
         save_user_data(user_id, user_data)
-        st.experimental_rerun()
+        st.rerun()
 
 if __name__ == '__main__':
     main()
