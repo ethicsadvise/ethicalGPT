@@ -45,7 +45,7 @@ def main():
                 #    initial_sidebar_state=st.session_state.get('sidebar_state', 'collapsed'),
 )
 
-    st.image("./logo/ungifted_amateur_v5.png", use_column_width=True )
+    st.image("./logo/images.jpeg", use_column_width=True )
     
     st.snow()
     
