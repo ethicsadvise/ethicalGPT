@@ -61,6 +61,20 @@ def main():
     models = ["llama-ethical"]
     st.sidebar.selectbox("Select Model", models, index=0)
 
+    st.sidebar.title("❄️ Snowflake Cheatsheet 📄")
+    st.sidebar.caption("Made by an [Ungifted Amateur](https://www.linkedin.com/in/siavash-yasini/)")
+    
+    st.sidebar.caption("Check out the accompanying Snowflake tutorial [here](https://medium.com/snowflake/the-ungifted-amateurs-guide-to-snowflake-449284e4bd72).")
+    
+    with st.sidebar.expander("See My Other Streamlit Apps"):
+        st.caption("Sophisticated Palette: [App](https://sophisticated-palette.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/create-a-color-palette-from-any-image/) 📝")
+        st.caption("Wordler: [App](https://wordler.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/the-ultimate-wordle-cheat-sheet/) 📝")
+        st.caption("Koffee of the World: [App](https://koffee.streamlit.app/) 🎈")
+       
+    with st.sidebar.expander("ℹ️ **Latest Snowflake Release Notes**"):
+        st.markdown("""Stay frosty and keep up with the coolest updates on the Snowflake website [here](https://docs.snowflake.com/en/release-notes/new-features).""")
+    cols = st.columns(2)
+
     # Load chat history into session state
     if "messages" not in st.session_state:
         st.session_state.messages = user_data["chat_history"]
