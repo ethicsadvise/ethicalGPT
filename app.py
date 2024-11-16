@@ -41,9 +41,9 @@ def main():
     # Streamlit Title
     st.title("Ethical GPT Assistant")
 
-    st.set_page_config(page_title='Ethical GPT Assistant', layout='wide',
-                #    initial_sidebar_state=st.session_state.get('sidebar_state', 'collapsed'),
-)
+#     st.set_page_config(page_title='Ethical GPT Assistant', layout='wide',
+#                 #    initial_sidebar_state=st.session_state.get('sidebar_state', 'collapsed'),
+# )
 
     st.image("./logo/images.jpeg", use_column_width=True )
     
