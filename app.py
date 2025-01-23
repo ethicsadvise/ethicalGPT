@@ -60,7 +60,7 @@ def main():
 
     Feel free to ask any questions, and rest assured that the assistant will provide helpful and appropriate responses.
     Follow the link below to read about the scenerio that will be used for testing:
-    https://docs.google.com/document/d/1G403SC3BPeAxi98sI6uu6BBfMQKw1Tdp2XEpGbleeak/edit?usp=sharing
+    [Scenerio link] (https://docs.google.com/document/d/1G403SC3BPeAxi98sI6uu6BBfMQKw1Tdp2XEpGbleeak/edit?usp=sharing)
     """
     
     st.markdown(intro)
