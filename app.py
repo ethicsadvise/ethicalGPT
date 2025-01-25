@@ -40,7 +40,7 @@ def save_user_data(user_id, data):
         json.dump(data, file)
 
 def main():
-    endpoint_url = "https://7b2c-34-16-220-4.ngrok-free.app/predict"  # Endpoint URL from .env
+    endpoint_url = "https://2a1b-34-125-126-199.ngrok-free.app/predict"  # Endpoint URL from .env
 
     user_id = get_user_id()
     user_data = load_user_data(user_id)
